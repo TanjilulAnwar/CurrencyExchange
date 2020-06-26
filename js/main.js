@@ -1,3 +1,10 @@
+
+$(document).ready(function () {
+
+
+
+
+
 const endpoint = 'http://data.fixer.io/api/latest?access_key=8d34092eb82e5293bec6c3f0cdd15c7c';
 
 const fromCurrency = document.querySelector(".fromInput");
@@ -34,3 +41,4 @@ document.querySelector(".convertButton").addEventListener("click",exchange);
 //fromCurrency.addEventListener("input",conversor);
 
 
+})
